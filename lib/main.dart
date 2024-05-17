@@ -32,8 +32,8 @@ class _SignUpPageState extends State<SignUpPage> {
 
   void _signUp() {
     if (_formKey.currentState?.validate() ?? false) {
-      // Perform sign-up logic here
-      // If sign-up is successful, navigate to the Hello World page
+      // Perform sign-up logic 
+      // If sign up is successful it navigates to the Hello World page
       Navigator.pushNamed(context, '/helloWorld');
     }
   }
@@ -126,7 +126,7 @@ class _SignUpPageState extends State<SignUpPage> {
                       Center(
                         child: TextButton(
                           onPressed: () {
-                            // Navigate to another page if needed, for example, the login page
+                            
                           },
                           child: Text('Already have an account? Log in'),
                         ),
